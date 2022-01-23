@@ -296,7 +296,7 @@ footer {
 
 /* Media queries */
 
-/* Small screen*/
+/* Medium Screens */
 @media(max-width: 900px){
     .event-description {
         width: 100%;
@@ -328,17 +328,25 @@ footer {
     }
 }
 
-/* Medium Screens */
+/* Smaller Screens */
 @media(max-width: 515px){
     .event-link > a > button {
         width: 35%;
     }
     
-    .footer-container
+    .footer-container {
+        padding: 10px 0;
+    }
 
     .footer-img {
-        width: 80px;
+        width: 70px;
     }
 }
 
+/* Phones */
+@media(max-width: 415px){
+    small {
+        font-size: 8px;
+    }
+}
 
