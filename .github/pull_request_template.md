@@ -33,7 +33,7 @@ See here: https://docs.github.com/en/free-pro-team@latest/github/managing-your-w
 ## Remarks, notes, or any future suggestions?
 
 
-## Add to the documentation?
+## Add to the documentation(s)?
 
 - [ ] 📜 readme
 - [ ] 📜 contributing.md
