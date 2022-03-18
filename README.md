@@ -63,4 +63,3 @@ If you have any new ideas, resources, features, questions related to the club we
 - Wing K.
 - Yannelly M.
 
-# Hi
