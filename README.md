@@ -13,8 +13,16 @@ Welcome to our <a href="https://jjaycss.tech/">Club's Official Website</a> Repos
 
 ## How to Contribute to New Club Website Features
 If you'd like to get new features that you believe will enhance our Club's website, then the best way for this to happen is through creating a pull request. The following steps will only be able to be done if you have connected your systems terminal to your Github account and that you have forked this repository.
+
+### Fork this repository:
+1) Scroll up to the top of the webpage. You'll see this:
+<img width="1436" alt="Screen Shot 2022-03-18 at 5 28 42 PM" src="https://user-images.githubusercontent.com/57043165/159085242-60b4041d-19d6-436c-9a5e-e687be9c2171.png">
+
+2) Click on the "Fork" button. 
+3) Clone your forked CSS_Website repository.
+
 ### Create a Pull Request:
-1) You will need to first clone this repository
+1) You will need to first clone your forked CSS_Website repository.
     - Click on the green "Code" button on this repository.
     - Under "SSH", copy the link that you see there. It should look like this `git@github.com:jjcss/CSS_Website.git`
     - Go to your terminal. Make sure you aren't in another folder.
