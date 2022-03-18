@@ -43,7 +43,7 @@ If you'd like to get new features that you believe will enhance our Club's websi
 4) After adding new code in your new branch, create a pull request
     - Now that you've committed the new changes to your new branch, push all these new changes to the Club's repository with the command `git push origin nameOfBranchYouAreWorkingOn`
     - Head over to the club's repository and you should now see a yellow warning of a pull request. Click it and insert all the necessary information
-    - Make sure to be really specific as to what feature you just did. This way, executives of the club will be able to quickly look over your pull request and your code. Don't forget to check if the club is on the "Reviewers" section. If not, then add the club to the list, which is jjcss.
+    - Make sure to be really specific as to what feature you just did. This way, executives of the club will be able to quickly look over your pull request and your code.
 5) Wait for a club executive to approve of your pull request. Any comments or concerns about your pull request will be inside of the pull request you created.
 
 ### Open a New Discussion:
