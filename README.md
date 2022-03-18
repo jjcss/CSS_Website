@@ -12,7 +12,7 @@ Hello everyone!
 Welcome to our <a href="https://jjaycss.tech/">Club's Official Website</a> Repository. This website was finished this past January of 2022. We hope you all liked how it came out. However, we now have made this repository <b>public</b> so you all will be able to contribute to future features that you believe the Club should add to the website or if you have any concerns and suggestions. Learn more on how to get started below:
 
 ## How to Contribute to New Club Website Features
-If you'd like to get new features that you believe will enhance our Club's website, then the best way for this to happen is through creating a pull request. The following steps will only be able to be done if you have connected your systems terminal to your Github account.
+If you'd like to get new features that you believe will enhance our Club's website, then the best way for this to happen is through creating a pull request. The following steps will only be able to be done if you have connected your systems terminal to your Github account and that you have forked this repository.
 ### Create a Pull Request:
 1) You will need to first clone this repository
     - Click on the green "Code" button on this repository.
