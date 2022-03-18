@@ -24,7 +24,7 @@ See here: https://docs.github.com/en/free-pro-team@latest/github/managing-your-w
 <!-- **Visual changes require screenshots** -->
 
 
-## Added tests?
+## Add tests?
 
 - [ ] 👍 yes
 - [ ] 🙅 no, because they aren't needed
@@ -33,7 +33,7 @@ See here: https://docs.github.com/en/free-pro-team@latest/github/managing-your-w
 ## Remarks, notes, or any future suggestions?
 
 
-## Added to documentation?
+## Add to the documentation?
 
 - [ ] 📜 readme
 - [ ] 📜 contributing.md
