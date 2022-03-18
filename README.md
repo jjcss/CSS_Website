@@ -19,7 +19,8 @@ If you'd like to get new features that you believe will enhance our Club's websi
 <img width="1436" alt="Screen Shot 2022-03-18 at 5 28 42 PM" src="https://user-images.githubusercontent.com/57043165/159085242-60b4041d-19d6-436c-9a5e-e687be9c2171.png">
 
 2) Click on the "Fork" button. 
-3) Clone your forked CSS_Website repository.
+<img width="1436" alt="Screen Shot 2022-03-18 at 5 32 42 PM" src="https://user-images.githubusercontent.com/57043165/159085759-b541b884-caf0-4b3f-9ecb-ee74bc65e26f.png">
+
 
 ### Create a Pull Request:
 1) You will need to first clone your forked CSS_Website repository.
