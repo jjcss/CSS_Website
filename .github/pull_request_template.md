@@ -14,7 +14,7 @@
 <!-- Please do not leave this blank. 
 Ex.: This PR [adds/removes/fixes/replaces] this [feature/bug/etc]. -->
 
-## Relevant Documents & Issue Numbers
+## Relevant Documents, Websites, & Issue Numbers
 <!--
 Please use this format link issue numbers: Fixes #123 
 See here: https://docs.github.com/en/free-pro-team@latest/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword 
