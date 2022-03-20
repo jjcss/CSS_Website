@@ -15,7 +15,7 @@ Ex.: This PR [adds/removes/fixes/replaces] this [feature/bug/etc]. -->
 
 ### 3. Relevant Documents, Websites, & Issue Numbers
 <!--
-Please use this format to link issue numbers to your pull request in either the description or the commit message: Fixes #123 
+Please use this format to link issue numbers to your pull request either in the pull request's description or in a commit message: Fixes #123 
 See here: https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue
 -->
 
