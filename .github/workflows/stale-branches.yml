@@ -4,7 +4,7 @@ name: Stale Branches
 
 on:
   schedule:
-    - cron: '0 13 * * 5'
+    - cron: '0 21 * * 5'
     
 permissions:
   issues: write
@@ -18,7 +18,5 @@ jobs:
       uses: crs-k/stale-branches@v2.0.1
       with:
         repo-token: ${{ github.token }}
-        compare-branches: 
-          - 'info'
-          - 'save'
+        compare-branches: 'save'
         days-before-delete: 93
