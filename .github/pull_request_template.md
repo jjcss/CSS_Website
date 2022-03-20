@@ -1,6 +1,5 @@
 <!-- # <img src="https://i.imgur.com/jmWW6Sc.png" alt="drawing" width="60"> Pull Requests Template -->
-## What type of PR is this? (check all applicable)
-
+### 1. What type of PR is this? (check all applicable)
 - [ ] ♻️ Refactor
 - [ ] ✨ Feature
 - [ ] 🐛 Bug Fix
@@ -9,39 +8,39 @@
 - [ ] 🔖 Release
 - [ ] 🚩 Other
 
-## Description
-
+### 2. Description
 <!-- Please do not leave this blank. 
 Ex.: This PR [adds/removes/fixes/replaces] this [feature/bug/etc]. -->
 
-## Relevant Documents & Issue Numbers
+
+### 3. Relevant Documents, Websites, & Issue Numbers
 <!--
 Please use this format link issue numbers: Fixes #123 
 See here: https://docs.github.com/en/free-pro-team@latest/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword 
 -->
 
-## Mobile & Desktop Screenshots/Recordings
-<!-- **Visual changes require screenshots** -->
+
+### 4. Mobile & Desktop Screenshots/Recordings
+<!-- Visual changes require screenshots -->
 
 
-## Add tests?
-
+### 5. Add tests?
 - [ ] 👍 yes
 - [ ] 🙅 no, because they aren't needed
 - [ ] 🙋 no, because I need help
 
-## Remarks, notes, or any future suggestions?
+### 6. Remarks, notes, or any future suggestions?
 
 
-## Add to the documentation(s)?
-
+### 7. Add to the documentation(s)?
 - [ ] 📜 readme
 - [ ] 📜 contributing.md
 - [ ] 📓 docs
 - [ ] 📕 storybook
 - [ ] 🙅 no documentation needed
 
-## [optional] Are there any post-deployment tasks we need to perform? 
+### 8. Are there any post-deployment tasks we need to perform? 
 
-## [optional] What gif best describes this PR or how it makes you feel?
+
+### 9. What gif best describes this PR or how it makes you feel?
 
