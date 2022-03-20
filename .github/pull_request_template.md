@@ -14,9 +14,9 @@
 <!-- Please do not leave this blank. 
 Ex.: This PR [adds/removes/fixes/replaces] this [feature/bug/etc]. -->
 
-## Related Tickets & Documents
+## Relevant Documents & Issue Numbers
 <!--
-Please use this format link issue numbers: Fixes #123
+Please use this format link issue numbers: Fixes #123 
 See here: https://docs.github.com/en/free-pro-team@latest/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword 
 -->
 
@@ -24,7 +24,7 @@ See here: https://docs.github.com/en/free-pro-team@latest/github/managing-your-w
 <!-- **Visual changes require screenshots** -->
 
 
-## Added tests?
+## Add tests?
 
 - [ ] 👍 yes
 - [ ] 🙅 no, because they aren't needed
@@ -33,7 +33,7 @@ See here: https://docs.github.com/en/free-pro-team@latest/github/managing-your-w
 ## Remarks, notes, or any future suggestions?
 
 
-## Added to documentation?
+## Add to the documentation(s)?
 
 - [ ] 📜 readme
 - [ ] 📜 contributing.md
