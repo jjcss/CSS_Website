@@ -11,6 +11,11 @@ Hello everyone!
 
 Welcome to our <a href="https://jjaycss.tech/">Club's Official Website</a> Repository. This website was finished this past January of 2022. We hope you all liked how it came out. However, we now have made this repository <b>public</b> so you all will be able to contribute to future features that you believe the Club should add to the website or if you have any concerns and suggestions. Learn more on how to get started below:
 
+### Prerequisites:
+- Must be familiar with using Git and Github (otherwise you may come across many errors). We will include resources below to get started on using these two tools if you aren't familiar with them.
+    - [Git and Github Intro Video](https://www.youtube.com/watch?v=RGOj5yH7evk&t=1019s&ab_channel=freeCodeCamp.org)
+    - In some of the steps listed below, you may come across a command in terminal that asks you for your username or password. This means that you haven't made a token for your Github account yet. Please watch this [Youtube video](https://www.youtube.com/watch?v=kHkQnuYzwoo&ab_channel=EdGoad) to get a token set up.
+
 ## How to Contribute to New Club Website Features
 If you'd like to get new features that you believe will enhance our Club's website, then the best way for this to happen is through creating a pull request. The following steps will only be able to be done if you have connected your systems terminal to your Github account and that you have forked this repository.
 
@@ -21,6 +26,8 @@ If you'd like to get new features that you believe will enhance our Club's websi
 2) Click on the "Fork" button. 
 <img width="1436" alt="Screen Shot 2022-03-18 at 5 32 42 PM" src="https://user-images.githubusercontent.com/57043165/159085759-b541b884-caf0-4b3f-9ecb-ee74bc65e26f.png">
 
+3) You should now have a forked repository. Any changes or additions that you make will happen in this forked repository.
+
 
 ### Create a Pull Request:
 1) You will need to first clone your forked CSS_Website repository.
@@ -28,7 +35,7 @@ If you'd like to get new features that you believe will enhance our Club's websi
     - Under "SSH", copy the link that you see there. It should look like this `git@github.com:jjcss/CSS_Website.git`
     - Go to your terminal. Make sure you aren't in another folder.
     - Type in the command `git clone git@github.com:jjcss/CSS_Website.git`
-    - You should now have a new folder in your system name "CSS_Website"
+    - You should now have a new folder in your system name "CSS_Website" (we recommend you save the folder on your Desktop)
     - If you followed the steps correctly then you have now cloned this repository correctly
 2) Open up the new repository folder ("CSS_Website") in your IDE
     - For this example, we'll make Visual Studio Code our IDE. 
