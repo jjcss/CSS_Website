@@ -51,7 +51,7 @@ If you'd like to get new features that you believe will enhance our Club's websi
     - Now that you've committed the new changes to your new branch, push all these new changes to the Club's repository with the command `git push origin nameOfBranchYouAreWorkingOn`
     - Head over to the club's repository and you should now see a yellow warning of a pull request. Click it and insert all the necessary information
     - Make sure to be really specific as to what feature you just did. This way, executives of the club will be able to quickly look over your pull request and your code.
-5) Wait for a club executive to approve of your pull request. Any comments or concerns about your pull request will be inside of the pull request you created.
+5) Once you're done, click on the green button "Create Pull Reequest". Then, wait for a club executive to approve your pull request. Any comments or concerns about it will be in the pull request that you've created.
 
 ### Open a New Discussion:
 If you have any new ideas, resources, features, questions related to the club website, or errors on the website that you would like to let us know, then click on the green button "New Discussion".
