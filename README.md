@@ -32,9 +32,10 @@ If you'd like to get new features that you believe will enhance our Club's websi
 ### Create a Pull Request:
 1) You will need to first clone your forked CSS_Website repository.
     - Click on the green "Code" button on this repository.
-    - Under "SSH", copy the link that you see there. It should look like this `git@github.com:jjcss/CSS_Website.git`
+    - Under "SSH", copy the link that you see there. It should look something similar to this `git@github.com:jjcss/CSS_Website.git`
     - Go to your terminal. Make sure you aren't in another folder.
-    - Type in the command `git clone git@github.com:jjcss/CSS_Website.git`
+    - Type in the command `git clone {paste the link that you've just copied here}`
+        - As an example, `git clone git@github.com:jjcss/CSS_Website.git`
     - You should now have a new folder in your system name "CSS_Website" (we recommend you save the folder on your Desktop)
     - If you followed the steps correctly then you have now cloned this repository correctly
 2) Open up the new repository folder ("CSS_Website") in your IDE
