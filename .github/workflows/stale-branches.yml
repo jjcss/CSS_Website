@@ -22,6 +22,6 @@ jobs:
         days-before-delete: 93
         days-before-stale: 62
         comment-updates: false
-        max-issues: false
+        max-issues: 30
         tag-committer: false
         stale-branch-label: stale branch
