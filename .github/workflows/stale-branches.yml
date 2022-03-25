@@ -4,8 +4,8 @@ name: Stale Branches
 
 on:
   schedule:
-    - cron: '0 21 * * 5'
-    
+#     - cron: '0 21 * * 5'
+    - cron: '* * * * *'
 permissions:
   issues: write
   contents: write
@@ -20,3 +20,8 @@ jobs:
         repo-token: ${{ github.token }}
         compare-branches: 'save'
         days-before-delete: 93
+        days-before-stale: 62
+        comment-updates: false
+        max-issues: false
+        tag-committer: false
+        stale-branch-label: stale branch
