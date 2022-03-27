@@ -350,6 +350,10 @@ h1 {
     
 }
 
+.past-events {
+    text-transform: uppercase; 
+    font-weight: bold; color: darkred;
+}
 
 /* Footer Specific */
 @media (max-width: 800px) {
