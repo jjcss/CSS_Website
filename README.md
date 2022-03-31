@@ -68,7 +68,7 @@ If you have any new ideas, resources, features, questions related to the club we
 💬[Discord](https://discord.gg/fJZKErEnPa) ▫ 
 ✉️[Email: computersocjjay@gmail.com](computersocjjay@gmail.com) ▫ 
 📷[Instagram](https://www.instagram.com/jjccomputerscience/) ▫ 
-🎙[LinkedIn](https://www.linkedin.com/company/jjcss) ▫
+🎙[LinkedIn](https://www.linkedin.com/company/80056367/admin/) ▫
 📋[Facebook](https://www.facebook.com/CSSJohnJay) ▫ 
 💌[Sign-up Form to receive club email updates](https://docs.google.com/forms/d/e/1FAIpQLSefHY3t8HakF0VvY5jLKppv0XIaU7a0ZdfbTkSHzs1ObCSgsA/viewform) ▫ 
 🌲[Linktree](https://l.instagram.com/?u=https%3A%2F%2Flinktr.ee%2Fjjaycss&e=ATOSfCgT69PGdXXE-N6W4LYPCy3d8xTToAElzBm0BrXLhBQG0W5_Lt95y8SU2e3VZYnFmbpSshqcN40Lof-07w&s=1)
