@@ -866,7 +866,7 @@ section {
 /*  */
 
 .middleP {
-    font-size: 25px;
+    font-size: 10px;
 }
 
 @media (max-width: 800px) {
