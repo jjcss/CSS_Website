@@ -127,11 +127,12 @@ header {
 /* Top Imgage Section */
 
 .banner-container {
-    background: url("../images/shirt_event.png") center center;
+    background: linear-gradient(rgba(80, 80, 80, 0.5), rgba(49, 49, 49, 0.5)), url("../images/shirt_event.png") center center;
     background-size: cover;
     background-repeat: no-repeat;
-    border-radius: 10px;
-    box-shadow:  0px 0px 5px black;
+    display: block;
+    /* border-radius: 10px;
+    box-shadow:  0px 0px 5px black; */
     
     /* position: absolute; */
     /* background-size: contain; */
@@ -144,14 +145,14 @@ header {
     /* height: 300px; */
 }
 
-.banner-container .banner-inner-container {
+.banner-inner-container {
     padding: 10% 6.25vw;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     color: white;
-    display: flex;
-    /* background-color: pink; */
+    filter: brightness(100%);
 }
 
 .banner-join-btn {
@@ -865,7 +866,7 @@ section {
 /*  */
 
 .middleP {
-    font-size: 10px;
+    font-size: 25px;
 }
 
 @media (max-width: 800px) {
