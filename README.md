@@ -75,7 +75,7 @@ If you have any new ideas, resources, features, questions related to the club we
 
 ## Contributors
 - Leandro Gamarra (President)
-- Luis B. (Vice-President)
-- Annie H. (Assistant Treasurer)
+- Annie H. (Treasurer)
 - Wing K.
+- Luis B. (Previous VP)
 - Yannelly M.
