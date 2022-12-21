@@ -43,6 +43,18 @@ $(document).ready(function(){
 //     });
 // });
 
+$(document).ready(function(){
+    $('#turn7').on('click', function(){
+        var angle = ($('#image7').data('angle') + 180 || 0);
+        $('#image7').css({'transform': 'rotate(' + angle + 'deg)'});
+        $('#image7').data('angle', angle);
+        $(".resources7").slideToggle();
+    });
+    // $(".arrow7").click(function(){
+    //     $(".resources6").slideToggle();
+    // });
+});
+
 // arrow 2
 
 $(document).ready(function(){

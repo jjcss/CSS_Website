@@ -344,6 +344,13 @@ header {
     transform: rotate(180deg);
 }
 
+.arrow7 {
+    width: 24px;
+    height: 20px;
+    float: right;
+    transform: rotate(180deg);
+}
+
 .resources {
     padding-left: clamp(10px, 20px, 30px);
     padding-right: clamp(10px, 20px, 30px);
@@ -410,6 +417,19 @@ header {
 }
 
 .resources6 {
+    padding-left: clamp(10px, 20px, 30px);
+    padding-right: clamp(10px, 20px, 30px);
+    /* padding-left: 3%;
+    padding-right: 3%; */
+}
+
+#turn7 img {
+    width: 24px;
+    height: 20px;
+    float: right;
+}
+
+.resources7 {
     padding-left: clamp(10px, 20px, 30px);
     padding-right: clamp(10px, 20px, 30px);
     /* padding-left: 3%;
