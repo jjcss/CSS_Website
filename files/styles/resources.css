@@ -351,6 +351,34 @@ header {
     transform: rotate(180deg);
 }
 
+.arrow8 {
+    width: 24px;
+    height: 20px;
+    float: right;
+    transform: rotate(180deg);
+}
+
+.arrow9 {
+    width: 24px;
+    height: 20px;
+    float: right;
+    transform: rotate(180deg);
+}
+
+.arrow10 {
+    width: 24px;
+    height: 20px;
+    float: right;
+    transform: rotate(180deg);
+}
+
+.arrow11 {
+    width: 24px;
+    height: 20px;
+    float: right;
+    transform: rotate(180deg);
+}
+
 .resources {
     padding-left: clamp(10px, 20px, 30px);
     padding-right: clamp(10px, 20px, 30px);
@@ -430,6 +458,58 @@ header {
 }
 
 .resources7 {
+    padding-left: clamp(10px, 20px, 30px);
+    padding-right: clamp(10px, 20px, 30px);
+    /* padding-left: 3%;
+    padding-right: 3%; */
+}
+
+#turn8 img {
+    width: 24px;
+    height: 20px;
+    float: right;
+}
+
+.resources8 {
+    padding-left: clamp(10px, 20px, 30px);
+    padding-right: clamp(10px, 20px, 30px);
+    /* padding-left: 3%;
+    padding-right: 3%; */
+}
+
+#turn9 img {
+    width: 24px;
+    height: 20px;
+    float: right;
+}
+
+.resources9 {
+    padding-left: clamp(10px, 20px, 30px);
+    padding-right: clamp(10px, 20px, 30px);
+    /* padding-left: 3%;
+    padding-right: 3%; */
+}
+
+#turn10 img {
+    width: 24px;
+    height: 20px;
+    float: right;
+}
+
+.resources10 {
+    padding-left: clamp(10px, 20px, 30px);
+    padding-right: clamp(10px, 20px, 30px);
+    /* padding-left: 3%;
+    padding-right: 3%; */
+}
+
+#turn11 img {
+    width: 24px;
+    height: 20px;
+    float: right;
+}
+
+.resources11 {
     padding-left: clamp(10px, 20px, 30px);
     padding-right: clamp(10px, 20px, 30px);
     /* padding-left: 3%;
