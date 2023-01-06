@@ -44,6 +44,54 @@ $(document).ready(function(){
 // });
 
 $(document).ready(function(){
+    $('#turn8').on('click', function(){
+        var angle = ($('#image8').data('angle') + 180 || 0);
+        $('#image8').css({'transform': 'rotate(' + angle + 'deg)'});
+        $('#image8').data('angle', angle);
+        $(".resources8").slideToggle();
+    });
+    // $(".arrow7").click(function(){
+    //     $(".resources6").slideToggle();
+    // });
+});
+
+$(document).ready(function(){
+    $('#turn9').on('click', function(){
+        var angle = ($('#image9').data('angle') + 180 || 0);
+        $('#image9').css({'transform': 'rotate(' + angle + 'deg)'});
+        $('#image9').data('angle', angle);
+        $(".resources9").slideToggle();
+    });
+    // $(".arrow7").click(function(){
+    //     $(".resources6").slideToggle();
+    // });
+});
+
+$(document).ready(function(){
+    $('#turn10').on('click', function(){
+        var angle = ($('#image10').data('angle') + 180 || 0);
+        $('#image10').css({'transform': 'rotate(' + angle + 'deg)'});
+        $('#image10').data('angle', angle);
+        $(".resources10").slideToggle();
+    });
+    // $(".arrow7").click(function(){
+    //     $(".resources6").slideToggle();
+    // });
+});
+
+$(document).ready(function(){
+    $('#turn11').on('click', function(){
+        var angle = ($('#image11').data('angle') + 180 || 0);
+        $('#image11').css({'transform': 'rotate(' + angle + 'deg)'});
+        $('#image11').data('angle', angle);
+        $(".resources11").slideToggle();
+    });
+    // $(".arrow7").click(function(){
+    //     $(".resources6").slideToggle();
+    // });
+});
+
+$(document).ready(function(){
     $('#turn7').on('click', function(){
         var angle = ($('#image7').data('angle') + 180 || 0);
         $('#image7').css({'transform': 'rotate(' + angle + 'deg)'});
