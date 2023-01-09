@@ -238,11 +238,165 @@ header {
 }
 /* end of who we are section  */
 
+/* cybersecurity section */
+
+.cybersecurity-flex-container {
+  padding-left: 5%; 
+  padding-right: 5%; 
+  /* background-color: rgb(238,43,42, .15); */
+  align-items: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+@media (min-width: 56.25em){
+  .cybersecurity-flex-container {
+      display: flex;  
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .cybersecurity-flex-container {
+      display: none;
+  }
+}
+
+.cybersecurity-main-content {
+  flex: 1;  
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.cybersecurity-section-title {
+  font-size: 40px;
+  font-weight: 600; 
+  text-align: center;
+}
+
+.cybersecurity-section-description {
+  font-size: 24px;
+}
+
+.cybersecurity-button-section {
+  text-align: center;
+}
+
+.cybersecurity-button {
+  color:white;
+  width: 270px;
+  font-weight: 500;
+  background-color: #CE4A4A;
+  border-radius: 50px;
+  font-size: 1.75rem;
+  text-align: center;
+  text-decoration: none;
+  padding-top: .7%;
+  padding-bottom: .7%;
+  padding-right: 5%;
+  padding-left: 5%;
+  border: 0;
+}
+
+.cybersecurity-img-section {
+  flex: .75 0 300px;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.cybersecurity-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%; 
+  height: 80%;
+  border-radius: 10px;
+  box-shadow:  0px 0px 5px black;
+}
+
+
+/*  */
+/*  */
+/*  */
+.cybersecurity-flex-container2 {
+  padding-left: 5%; 
+  padding-right: 5%; 
+  /* background-color: rgb(238,43,42, .15); */
+  align-items: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+@media (min-width: 56.25em){
+  .cybersecurity-flex-container2 {
+      display: flex;  
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .cybersecurity-flex-container2 {
+      display: none;
+  }
+}
+
+.cybersecurity-main-content2 {
+  flex: 1;  
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.cybersecurity-section-title2 {
+  font-size: 40px;
+  font-weight: 600; 
+  text-align: center;
+}
+
+.cybersecurity-section-description2 {
+  font-size: 24px;
+}
+
+.cybersecurity-button-section2 {
+  text-align: center;
+}
+
+.cybersecurity-button2 {
+  color:white;
+  width: 270px;
+  font-weight: 500;
+  background-color: #CE4A4A;
+  border-radius: 50px;
+  font-size: 1.75rem;
+  text-align: center;
+  text-decoration: none;
+  padding-top: .7%;
+  padding-bottom: .7%;
+  padding-right: 5%;
+  padding-left: 5%;
+  border: 0;
+}
+
+.cybersecurity-img-section2 {
+  flex: .75 0 300px;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.cybersecurity-img2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%; 
+  height: 80%;
+  border-radius: 10px;
+  box-shadow:  0px 0px 5px black;
+}
+
+/* end of cybersecurity section */
+
 /* languages section */
 .languages-flex-container {
     padding-left: 5%; 
     padding-right: 5%; 
-    /* background-color: rgb(238,43,42, .15); */
+    background-color: rgb(238,43,42, .15);
     align-items: center;
     padding-top: 2%;
     padding-bottom: 2%;
