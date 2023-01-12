@@ -118,8 +118,56 @@ header {
 }
 /* end of header  */
 
+/* Join the Team Title and Submit article button section */
 
+.blog-title-section {
+    padding: 20px 20px 40px;
+    text-align: center;
+}
 
+.blog-title {
+    font-size: 45px;
+}
+
+.blog-button-section {
+    text-align: center;
+  }
+
+  .blog-button {
+    color:white;
+    width: 400px;
+    font-weight: 500;
+    background-color: #CE4A4A;
+    border-radius: 50px;
+    font-size: 1.75rem;
+    text-align: center;
+    text-decoration: none;
+    padding-top: .7%;
+    padding-bottom: .7%;
+    padding-right: 5%;
+    padding-left: 5%;
+    border: 0;
+  }
+
+  /* resources button styling */
+
+  .blog-button:not([disabled]):focus {
+    box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+  }
+  
+  .blog-button:not([disabled]):hover {
+    box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+  }
+
+.blog-button:not(:disabled):hover {
+  transform: scale(1.05);
+}
+
+.blog-button:not(:disabled):hover:active {
+  transform: scale(1.05) translateY(.125rem);
+}
+
+/* End of Join the Team Title and Submit article button section */
 
 
 /* Footer */
