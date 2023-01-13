@@ -177,6 +177,15 @@ header {
     justify-content: center;
     justify-items: center;
     text-align: center;
+    padding-right: 15%; 
+    padding-left: 15%;
+}
+
+@media (max-width: 56.25em) {
+    .blog-category-section {
+        padding-right: 8%; 
+        padding-left: 8%;
+    }
 }
 
 .blog-category-section ul {
@@ -250,6 +259,184 @@ header {
 }
 /* End of Main blog desciption section */
 
+/* Article Element */
+.article-main-container {
+    padding-left: 15%; 
+    padding-right: 15%;
+}
+
+@media (max-width: 56.25em){
+    .article-main-container {
+        padding-left: 10%; 
+        padding-right: 10%;
+    }
+}
+
+.article-flex-container {
+    /* padding-left: 15%; 
+    padding-right: 15%;  */
+    /* background-color: rgba(98, 158, 70, 0.15); */
+    align-items: center;
+    /* padding-top: 5%; */
+    /* padding-bottom: 5%; */
+    /* width: 80%; */
+    border-radius: 15px;
+}
+  
+@media (min-width: 56.25em){
+    .article-flex-container {
+        display: flex;  
+    }
+}
+  
+  .article-main-content {
+    flex: 1;  
+    padding: 20px;
+    /* padding-left: 20px; */
+    border-radius: 12px;
+    /* align-items: center; */
+    /* background-color: brown; */
+  }
+
+  .article-section-title {
+    font-size: 30px;
+    font-weight: 600; 
+    /* text-decoration: none;
+    color: black; */
+    /* text-align: center; */
+  }
+
+  .article-section-description {
+    font-size: 24px;
+  }
+  
+  .article-img-section {
+    /* originial */
+    /* flex: .75 0 300px; */
+    flex: .35 0 0px;
+    padding: 20px;
+    border-radius: 12px;
+  }
+
+  .article-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%; 
+    height: 80%;
+    border-radius: 10px;
+    box-shadow:  0px 0px 5px black;
+  }
+
+  .article-image-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .article-image {
+    /* width: 5%; */
+    border-radius: 50%; 
+    /* overflow: hidden; */
+    max-width: 6%;
+    display: block;
+    /* margin: 0 auto 0.5rem; */
+    border: 1px solid #d3d3d3;
+    /* border-radius: 10rem; */
+    
+  }
+
+  @media (max-width: 56.25em) {
+    .article-image {
+        max-width: 12%;
+    }
+    }
+  
+  .article-image-text {
+    width: 80%;
+    /* white-space: nowrap;  */
+  }
+/* End of Article element */
+
+/* Submit an Article Section */
+
+.submit-article-flex-container {
+    padding-left: 5%; 
+    padding-right: 5%; 
+    /* background-color: rgb(238,43,42, .15); */
+    align-items: center;
+    /* padding-top: 5%; */
+    padding-bottom: 5%;
+}
+  
+@media (min-width: 56.25em){
+    .submit-article-flex-container {
+        display: flex;  
+    }
+}
+  
+  .submit-article-main-content {
+    flex: 3;  
+    padding: 20px;
+    border-radius: 12px;
+  }
+
+  .submit-article-section-title {
+    font-size: 40px;
+    font-weight: 600; 
+    text-align: center;
+  }
+
+  .submit-article-section-description {
+    font-size: 24px;
+  }
+
+  .submit-article-button-section {
+    text-align: center;
+  }
+
+  .submit-article-button {
+    color:white;
+    width: 250px;
+    font-weight: 500;
+    background-color: #CE4A4A;
+    border-radius: 50px;
+    font-size: 1.75rem;
+    text-align: center;
+    text-decoration: none;
+    padding-top: .7%;
+    padding-bottom: .7%;
+    padding-right: 5%;
+    padding-left: 5%;
+    border: 0;
+  }
+
+  /* submit article button styling */
+
+  .submit-article-button:not([disabled]):focus {
+    box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+  }
+  
+  .submit-article-button:not([disabled]):hover {
+    box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+  }
+
+.submit-article-button:not(:disabled):hover {
+  transform: scale(1.05);
+}
+
+.submit-article-button:not(:disabled):hover:active {
+  transform: scale(1.05) translateY(.125rem);
+}
+
+  /* end of submit article button styling  */
+  
+  .submit-article-button-section {
+    flex: .75 0 300px;
+    padding: 20px;
+    border-radius: 12px;
+  }
+
+/* End of Submit an Article Section */
 
 /* Footer */
 /*  */
