@@ -149,8 +149,6 @@ header {
     border: 0;
   }
 
-  /* resources button styling */
-
   .blog-button:not([disabled]):focus {
     box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
   }
@@ -168,6 +166,89 @@ header {
 }
 
 /* End of Join the Team Title and Submit article button section */
+
+/* Blog Category Section */
+
+/* .blog-category-container {
+} */
+
+.blog-category-section {
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+}
+
+.blog-category-section ul {
+    list-style-type: none;
+    display: flex;
+    /* width: 50%; */
+    justify-content: space-between;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* .blog-category-section li { */
+    /* display:inline-block; */
+/* } */
+
+.blog-category-section ul li {
+    cursor: pointer;
+    position: relative;
+    text-align: center;
+}
+
+.blog-category-section li.active::after {
+    position: absolute;
+    content: "";
+    height: 3px;
+    width: 100%;
+    background-color: black;
+    left: 0;
+    bottom: -7px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    animation: appear 0.2s linear;
+}
+
+@keyframes appear {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+  /* End of Blog Category Section */
+
+/* Main blog desciption section */
+.blog-main-description-section{
+    padding-left: 5%; 
+    padding-right: 5%; 
+    align-items: center;
+}
+
+#blog-main-description{
+    margin-left:15%;
+    margin-right:15%;
+    /* margin-bottom: 10%; */
+    /* margin-top: 5%; */
+    text-align: left;
+    line-height: 2.0;
+    font-size: 24px;
+}
+
+@media (max-width: 56.25em) {
+    #blog-main-description {
+        margin-left:5%;
+        margin-right:5%;
+    }
+}
+/* End of Main blog desciption section */
 
 
 /* Footer */
