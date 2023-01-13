@@ -71,20 +71,22 @@
     <nav class="category">
         <div class="blog-category-section">
             <ul class="">
-              <li class="active">All</li>
-              <li>SWE</li>
-              <li>Cybersecurity</li>
-              <li>Data Science</li>
-              <li>iOS</li>
-              <li>Android</li>
-              <li>UI/UX</li>
+              <li class="active" data-target="all">All</li>
+              <li data-target="swe">SWE</li>
+              <li data-target="cybersecurity">Cybersecurity</li>
+              <li data-target="data_science">Data Science</li>
+              <li data-target="ios">iOS</li>
+              <li data-target="android">Android</li>
+              <li data-target="ui_ux">UI/UX</li>
             </ul>
         </div>
     </nav>
     <!-- End of Blog Category Section -->
 
+    <br>
+
     <!-- Main blog desciption section -->
-    <div class = "blog-main-description-section">    
+    <div class = "blog-main-description-section item">    
         <p id = "blog-main-description">
             Stay up to date on relevant topics surrounding the ever growing Computer Science field, written by your very own club Execs and club members. 
         <br>
@@ -92,8 +94,21 @@
     </div>
     <!-- End of Main blog desciption section -->
 
+    <br class="item swe ios"><br class="item swe ios">
+
+    <!-- Loading Animation -->
+    <!-- <section class=" data_science android ui_ux" style="padding-right: 5%; padding-left: 5%;">
+        <div class="loading-container">
+            <p class="loading-text">Be the First to add an article</p>
+            <div class="loading-animation">
+              <div class="loading-circle"></div>
+            </div>
+        </div>
+    </section> -->
+    <!-- End of Loading Animation -->
+
     <!-- Article Element -->
-    <section class="article-main-container">
+    <section class="article-main-container item swe ios">
         <a href="#" style="text-decoration: none; color: black;">
             <div class="article-flex-container" style="background-color: rgb(30,128,240, .15);" >
                 <div class="article-main-content">
@@ -118,9 +133,10 @@
         </a>
     </section>
 
+    <!-- <br class="item swe ios"><br class="item swe ios"> -->
     <br><br>
 
-    <section class="article-main-container">
+    <section class="article-main-container item cybersecurity">
         <a href="#" style="text-decoration: none; color: black;">
             <div class="article-flex-container" style="background-color: rgba(98, 158, 70, 0.15)">
                 <div class="article-main-content">
@@ -145,7 +161,7 @@
         </a>
     </section>
 
-    <br><br>
+    <br class="item cybersecurity"><br class="item cybersecurity">
     <!-- End of Article ELement -->
 
     <!-- Submit an Article Section -->
