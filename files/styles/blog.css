@@ -135,11 +135,11 @@ header {
 
   .blog-button {
     color:white;
-    width: 400px;
+    width: 350px;
     font-weight: 500;
     background-color: #CE4A4A;
     border-radius: 50px;
-    font-size: 1.75rem;
+    font-size: 1.0rem;
     text-align: center;
     text-decoration: none;
     padding-top: .7%;
@@ -148,6 +148,12 @@ header {
     padding-left: 5%;
     border: 0;
   }
+
+  @media (max-width: 56.25em) {
+    .blog-button {
+      width: 60%;
+    }
+}
 
   .blog-button:not([disabled]):focus {
     box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
