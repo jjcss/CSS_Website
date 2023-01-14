@@ -192,6 +192,22 @@ header {
         padding-right: 8%; 
         padding-left: 8%;
     }
+
+    /* category, split into rows code */
+    .blog-category-section {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .blog-category-section ul{
+      /* width: 100%; */
+      flex-direction: column;
+    }
+
+    .blog-category-section li{
+      padding: 1.2%;
+    }
+    /*  */
 }
 
 .blog-category-section ul {
