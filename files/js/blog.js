@@ -15,7 +15,7 @@ items.forEach((item) => {
     item.classList.add("active");
   });
   item.addEventListener('click', function (e) {
-    e.preventDefault();
+    // e.preventDefault();
     var target = this.dataset.target;
     var items_nav = document.querySelectorAll('.item');
 
