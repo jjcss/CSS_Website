@@ -197,16 +197,16 @@ header {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 55%;
-    height: 470px;
-    border-radius: 10px;
+    max-width: 80%;
+    /* max-height: 50%; */
+    border-radius: 20px;
     box-shadow:  0px 0px 5px black;
   }
 
-  @media (max-width: 56.25em) {
+  @media (max-width: 57.25em) {
     .article-img {
-        width: 50%; 
-        height: 300px;
+        width: 150%; 
+        max-height: 800px;
     }
 }
 
