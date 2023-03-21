@@ -919,6 +919,11 @@ section {
     position: relative;
 }
 
+.web-dev-col{
+  display: flex;
+  justify-content: center;
+}
+
 @media screen and (min-width: 1024px) {
     .team-member-container {
         height: 30rem;
