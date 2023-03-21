@@ -922,7 +922,6 @@ section {
 .web-dev-col{
   display: flex;
   justify-content: center;
-  text-align: center;
 }
 
 @media screen and (min-width: 1024px) {
