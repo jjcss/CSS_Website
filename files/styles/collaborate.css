@@ -209,11 +209,21 @@ h2 {
 }
 
 .share-project-ideas-img-box {
-    flex: 1;
+    /* flex: 1; */
+    flex: .75 0 300px;
+    padding: 20px;
+    border-radius: 12px;
 }
 
 .share-project-ideas-img-box > img{
-    width: 255px;
+    /* width: 255px; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%; 
+    height: 80%;
+    border-radius: 10px;
+    box-shadow:  0px 0px 5px black;
 }
 
 /* Club Suggestions Section */
