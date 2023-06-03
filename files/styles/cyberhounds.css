@@ -1,0 +1,620 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&family=VT323&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+/* Navbar */
+
+.brand-title p {
+    font-size: 12px;
+    color: black;
+}
+
+.bar {
+    padding-right: 5%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif; font-weight: 300;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    color: black;
+}
+
+.brand-title {
+    font-size: 1.5rem;
+    margin: .5rem;
+    padding-left: 5%;
+}
+
+.navbar-links ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar-links li {
+    list-style: none;
+}
+
+.navbar-links li a {
+    text-decoration: none;
+    color: black;
+    padding: 1rem;
+    display: block;
+}
+
+.navbar-links li a:hover {
+    color: red;
+}
+
+.toggle-button {
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 31px;
+    height: 21px;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: black;
+    border-radius: 10px;
+}
+
+@media (max-width: 1100px) {
+    .toggle-button {
+        display: flex;
+        /* padding-left: 13%; */
+    }
+
+    .navbar-links {
+        display: none;
+        width: 100%;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar-links ul {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .navbar-links li {
+        text-align: center;
+    }
+
+    .navbar-links li a {
+        padding: .5rem 1rem;
+    }
+
+    .navbar-links.active {
+        display: flex;
+    }
+}
+
+/*------ End of Navbar -------*/
+
+html {
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+.rounded {
+    border-bottom: 1px  black;
+	/* box-shadow: 0 20px 20px -20px #333; */
+    box-shadow: 0 2px 2px #333;
+}
+
+
+/* Header */
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.header-flex-container{
+    padding-left: 5%; 
+    padding-right: 5%; 
+    background-color: #2D3044;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.header-main-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-title{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 55px;
+    font-weight: 600; 
+    font-family: 'VT323', monospace;
+    color: #C80F28;
+}
+
+#header-title{
+    width:20%; 
+    text-align:center;
+}
+
+.header-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+    height: auto;
+}
+
+
+
+@media (max-width: 56.25em){
+    .header-main-content{
+        flex-direction: column;
+    }
+
+    .header-flex-container{
+        padding-left: 1%; 
+        padding-right: 1%; 
+        padding-top: 1%;
+        padding-bottom: 1%;
+    }
+    
+    .header-img{
+        width: 45%;
+    }
+
+    .header-title{
+        padding: 5px;
+    }
+
+    #header-title{
+        width: 100%;
+    }
+}
+/*------ End of Header -------*/
+
+/* Section 1 & 2  */
+
+
+.section-1, .section-2{
+    padding-left: 3%; 
+    padding-right: 3%; 
+    padding-top: 3%;
+    padding-bottom: 3%;
+    align-items: center;
+}
+
+.main-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.section-img{
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    height: 60%;
+    object-fit: contain;
+}
+
+h1{
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.description{
+    font-size: 24px;
+    margin-top: 1rem;
+}
+
+.text-section{
+    width: 35%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.flag-text{
+    font-family: 'VT323', monospace;
+    text-align: center;
+    letter-spacing: 5px;
+    margin-top: 2rem;
+}
+
+.img-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.line-img{
+    width: 65%;
+    height: auto;
+}
+
+@media (max-width: 56.25em){
+    .main-section{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .line-section{
+        display: none;
+    }
+
+    #section-2{
+        flex-direction: column-reverse;
+    }
+
+    .text-section{
+        width: 100%;
+    }
+
+    .section-img{
+        margin-bottom: 3rem;
+    }
+}
+
+/* -----End of Section 1 & 2--------*/
+
+/* Cyber Leagues */
+.container-league{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.main-league{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3%;
+}
+
+.img-wrapper {
+    justify-content: center;
+    height: 300px;
+    width: 393px;
+    margin-top: 2rem;
+    position: relative;
+  }
+
+  .background-img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+  }
+
+  /* 
+  
+  .background-img{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+  }
+
+  */
+
+  .text-wrapper {
+    z-index: 10;
+    display: flex;
+    align-items: center;
+  }
+
+  #pico-img{
+    object-fit: contain; 
+  }
+
+  /*
+  #pico-img{
+    object-fit: contain; 
+  }
+  */
+
+  .links{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    text-align: center;
+    background-color: #2D3044;
+    padding: 10px;
+    border-radius: 15px;
+    font-weight: 400;
+  }
+
+  .links:link{
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .links:visited{
+    color: #fff;
+  }
+
+  .links:hover{
+    text-decoration: underline;
+  }
+
+  @media (min-width: 56.25em){
+    .content-wrapper{
+        flex-direction: column;
+    }
+  }
+
+  /* -----End of Cyber Leagues--------*/
+
+  /* Join Us */
+
+.join-flex-container{
+    padding-left: 3%; 
+    padding-right: 3%; 
+    background-color: #252525;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin-top: 4rem;
+}
+
+.join-main-content{
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.join-text-wrapper{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    align-items: center;
+}
+
+.join-title{
+    color: #C80F28;
+}
+
+.join-img{
+    width: 35%;
+    height: auto;
+}
+
+.form-description{
+    font-size: 30px;
+    font-weight: 600;
+    padding: 3%;
+    text-decoration: none;
+    text-align: center;
+    background-color: #C80F28;
+    border-radius: 2rem;
+    padding: 2%;
+    margin: 1rem;
+}
+
+.form-description:link{
+    text-decoration: none;
+    color: #fff;
+}
+
+.form-description:visited{
+    color: #fff;
+}
+
+.form-description:not([disabled]):hover {
+    box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+  }
+
+.form-description:not(:disabled):hover {
+  transform: scale(1.05);
+}
+
+.form-description:not(:disabled):hover:active {
+  transform: scale(1.05) translateY(.125rem);
+}
+
+
+@media (max-width: 56.25em){
+    .join-main-content{
+        flex-direction: column-reverse;
+    }
+  }
+
+ /* -----End of Join Us--------*/
+
+/* Discord */
+
+.discord-flex-container{
+    padding-left: 3%; 
+    padding-right: 3%; 
+    background-color: #646987;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.discord-main-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.discord-title{
+    color: #fff;
+}
+
+.discord-text{
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    background-color: #7289da;
+    padding: 1rem;
+    border-radius: 2rem;
+    margin: 1rem;
+}
+
+.discord-link:link{
+    text-decoration: none;
+}
+
+.discord-link:visited{
+    color: #fff;
+}
+
+.discord-link:not([disabled]):hover {
+    box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(71, 147, 239, 0.5), .125rem .125rem 1rem rgba(90, 167, 255, 0.5);
+  }
+
+.discord-link:not(:disabled):hover {
+  transform: scale(1.05);
+}
+
+.discord-link:not(:disabled):hover:active {
+  transform: scale(1.05) translateY(.125rem);
+}
+
+@media (max-width: 56.25em){
+    .discord-main-content{
+        flex-direction: column;
+    }
+  }
+
+/* -----End of Discord ------ */
+
+/* Footer */
+.container {
+    background-color: black;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  
+  .column-left{ 
+    float: left; 
+    width: 20%;
+  }
+  
+  .column-left img {
+    width: 40px;
+    height: 50px;
+  }
+  
+  .column-center{ 
+    display: inline-block; 
+    width: 60%;
+    text-align: center;
+  }
+  
+  .column-right img {
+    width: 50px;
+    height: 40px;
+    margin: auto;
+  }
+  
+  .column-right{ 
+    float: right; 
+    width: 20%;
+    text-align: right;
+  }
+  
+  .middleP2 {
+    font-size: 10px;
+  }
+
+
+/* Media queries */
+
+/* Small screen*/
+@media(max-width: 900px){
+    .event-description {
+        width: 100%;
+    }
+
+    .event-link {
+        display: block;
+    }
+
+    .event-link > a > button {
+        float: none;
+        width: 25%;
+        margin: 10px 0;
+    }
+
+    .previous-workshops-section-text > a > button {
+        width: 30%;
+    }
+
+    .previous-workshops-container {
+        margin: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-img {
+        width: 90px;
+    }
+}
+
+/* Medium Screens */
+@media(max-width: 515px){
+    .previous-workshops-section-text {
+        font-size: 20px;
+    }
+
+    .event-link > a > button {
+        width: 35%;
+    }
+
+    .previous-workshops-section-text > p {
+        font-size: 20px;
+        width: 100%;
+    }
+    .previous-workshops-section-text > a > button {
+        width: 40%;
+    }
+    
+}
+
+.past-events {
+    text-transform: uppercase; 
+    font-weight: bold; 
+    color: darkred;
+}
+
+/* Footer Specific */
+@media (max-width: 800px) {
+    .middleP2 {
+      font-size: 7px;
+    }
+}
