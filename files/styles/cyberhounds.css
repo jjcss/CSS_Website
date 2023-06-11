@@ -444,6 +444,10 @@ h1{
     .join-main-content{
         flex-direction: column-reverse;
     }
+
+    .join-img{
+        width: 55%;
+    }
   }
 
  /* -----End of Join Us--------*/
