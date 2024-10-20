@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carousel Debugging</title>
+    <style>
+        main#carousel {
+            width: 100vw;
+            height: 600px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            transform-style: preserve-3d;
+            perspective: 800px;
+            --items: 5;
+            --position: 1;
+        }
+
+        div.item {
+            width: 300px;
+            height: 400px;
+            background-color: #fff;
+            border: 2px solid black;
+            position: absolute;
+            --r: calc(var(--position) - var(--offset));
+            transform: rotateY(calc(-10deg * var(--r))) translateX(calc(-350px * var(--r)));
+        }
+
+        .carousel-arrow {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            font-size: 2rem;
+            padding: 10px;
+            cursor: pointer;
+            border-radius: 50%;
+        }
+
+        .left-arrow {
+            left: 20px;
+        }
+
+        .right-arrow {
+            right: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<main id="carousel">
+    <div class="item" style="--offset: 1;">Item 1</div>
+    <div class="item" style="--offset: 2;">Item 2</div>
+    <div class="item" style="--offset: 3;">Item 3</div>
+    <div class="item" style="--offset: 4;">Item 4</div>
+    <div class="item" style="--offset: 5;">Item 5</div>
+</main>
+
+<!-- Left and Right Arrow Buttons -->
+<button class="carousel-arrow left-arrow">&lt;</button>
+<button class="carousel-arrow right-arrow">&gt;</button>
+
+<script>
+    const totalItems = 5; // Total number of items
+    let position = 1; // Start with the first item
+
+    const carousel = document.querySelector('main#carousel');
+
+    // Function to update the carousel position
+    const updateCarouselPosition = () => {
+        console.log("Updating position to: " + position);
+        carousel.style.setProperty('--position', position);
+    };
+
+    // Handle Right Arrow Click
+    document.querySelector('.right-arrow').addEventListener('click', () => {
+        if (position < totalItems) {
+            position += 1;
+        } else {
+            position = 1; // Loop back to the first item
+        }
+        console.log("Right arrow clicked. New position: " + position);
+        updateCarouselPosition(); // Update the carousel
+    });
+
+    // Handle Left Arrow Click
+    document.querySelector('.left-arrow').addEventListener('click', () => {
+        if (position > 1) {
+            position -= 1;
+        } else {
+            position = totalItems; // Loop back to the last item
+        }
+        console.log("Left arrow clicked. New position: " + position);
+        updateCarouselPosition(); // Update the carousel
+    });
+
+    // Initial update to set position correctly
+    updateCarouselPosition();
+</script>
+
+</body>
+</html>

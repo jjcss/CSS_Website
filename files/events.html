@@ -24,6 +24,13 @@
     <!-- <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png" /> -->
     <link rel="icon" type="image/png" href="images/favicon.png" />
 	
+    
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+ 
 </head>
 <body>
     <!-- Header -->
@@ -63,6 +70,31 @@
     <section class="events-section">
         <h1 style="font-size: 40px;"> Fall 2024 Semester Events</h1>
         <img class="calendar-icon" src="images/calendar.png" >
+        <!-- Flyer Carousel Section-->
+        
+        <main id="carousel">
+            <button class="carousel-arrow left-arrow">&lt;</button>
+                <div class="item">
+                <img src="images/First_General_Meeting.png" alt="Flyer 1">
+                </div>
+                <div class="item">
+                <img src="images/AI Part 1.png" alt="Flyer 2">
+                </div>
+                <div class="item">
+                <img src="images/AI Part 2.png" alt="Flyer 3">
+                </div>
+            <button class="carousel-arrow right-arrow">&gt;</button>
+            </main>
+            
+<!-- End of Flyer Carousel Section-->
+            <input type="radio" name="position" />
+            <input type="radio" name="position"checked />
+            <input type="radio" name="position" />
+            <!-- <input type="radio" name="position" />
+            <input type="radio" name="position" /> -->
+        
+            
+            
         <div class="event-container">
             <div class="event-info">
                 <div class="event-title">
@@ -337,8 +369,8 @@
         <div class="column-right">
             <a href="https://www.jjay.cuny.edu/" target="_blank" rel="noreferrer noopener"><img src="images/jjay2.png" alt=""></a>
         </div>
-     </div>
-     <!-- end of footer -->
+    </div>
+    <!-- end of footer -->
     
     <!-- JS -->
     <script src="js/events.js"></script>

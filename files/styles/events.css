@@ -1,8 +1,14 @@
 /* header */
+
 * {
     box-sizing: border-box;
 }
-
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Increase z-index to keep header above carousel */
+    background-color: white; /* Add background to ensure visibility */
+}
 .brand-title p {
     font-size: 12px;
     color: black;
@@ -105,18 +111,12 @@ body {
         display: flex;
     }
 }
-
-header {
-    position: sticky;
-    top: 0;
-    z-index: 1;
-}
-
 .rounded {
     border-bottom: 1px  black;
-	/* box-shadow: 0 20px 20px -20px #333; */
+    /* box-shadow: 0 20px 20px -20px #333; */
     box-shadow: 0 2px 2px #333;
 }
+
 /* end of header  */
 
 
@@ -131,6 +131,158 @@ h1 {
     margin: 50px 0 10px;
     display: inline-block;
     padding-right: 20px;
+}
+main#carousel {
+    width: 100vw;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transform-style: preserve-3d;
+    perspective: 800px;
+    --items: 5;
+    --middle: 3;
+    --position: 1;
+    pointer-events: none;
+    margin-top: 20px;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.carousel-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: white;
+    font-size: 2rem;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+    user-select: none;
+    outline: none;
+    z-index: 2;
+    pointer-events: auto;
+}
+
+
+.left-arrow {
+    background-color: #fff;
+    color: black;
+    left: 20px;
+    box-shadow: 0 2px 2px #333;
+}
+
+.right-arrow {
+    background-color: #fff;
+    color: black;
+    right: 20px;
+    box-shadow: 0 2px 2px #333;
+}
+.carousel-arrow:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+}
+.carousel-arrow:focus {
+    outline: none;  
+    box-shadow: none;  
+}
+div.item {
+    text-align: center;
+    padding: 5px;
+    border: 3px solid black;
+    border-radius: 20px;
+    background-color: #fff;
+    position: absolute;
+    width: 455px;
+    height: 600px;
+    background-color: white;
+    --r: calc(var(--position) - var(--offset));
+    --abs: max(calc(var(--r) * -1), var(--r));
+    transition: all 0.25s linear;
+    transform: rotateY(calc(-10deg * var(--r))) translateX(calc(-350px * var(--r))) scale(calc(1 - (var(--abs) * 0.1)));
+    z-index: calc((var(--items) - var(--abs)));
+    opacity: calc(1 - (var(--abs) * 0.4));
+    pointer-events: none;
+}
+
+div.item img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+/* Styling for carousel items */
+div.item:nth-of-type(1) { --offset: 1; }
+div.item:nth-of-type(2) { --offset: 2; }
+div.item:nth-of-type(3) { --offset: 3; }
+div.item:nth-of-type(4) { --offset: 4; }
+div.item:nth-of-type(5) { --offset: 5; }
+
+/* Radio button styling */
+input[type="radio"] {
+    display: inline-block;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #ddd;
+    margin: 10px;
+    cursor: pointer;
+}
+
+input[type="radio"]:checked {
+    background-color: rgba(238, 43, 42, 0.2); /* Active button color */
+}
+
+.radio-buttons-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    main#carousel-container {
+        height: 350px;
+    }
+
+    div.item {
+        width: 200px;
+        height: 300px;
+        transform: rotateY(calc(-10deg * var(--r))) translateX(calc(-200px * var(--r))) scale(calc(1 - (var(--abs) * 0.1)));
+    }
+
+    input[type="radio"] {
+        width: 20px;
+        height: 20px;
+    }
+
+    .carousel-arrow {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    main#carousel-container {
+        height: 300px;
+    }
+
+    div.item {
+        width: 150px;
+        height: 250px;
+        transform: rotateY(calc(-10deg * var(--r))) translateX(calc(-150px * var(--r))) scale(calc(1 - (var(--abs) * 0.1)));
+    }
+
+    input[type="radio"] {
+        width: 25px;
+        height: 25px;
+    }
+
+    .carousel-arrow {
+        font-size: 1.2rem;
+    }
 }
 
 .event-container {
@@ -149,7 +301,7 @@ h1 {
     bottom: 100px; 
     left: 85.2%; 
     font-size: 18px;
-  }
+}
 
 .calendar-icon {
     width: 30px;
@@ -268,39 +420,39 @@ h1 {
     justify-content: center;
     align-items: center;
     flex-shrink: 0;
-  }
-  
-  .column-left{ 
+}
+
+.column-left{ 
     float: left; 
     width: 20%;
-  }
-  
-  .column-left img {
+}
+
+.column-left img {
     width: 40px;
     height: 50px;
-  }
-  
-  .column-center{ 
+}
+
+.column-center{ 
     display: inline-block; 
     width: 60%;
     text-align: center;
-  }
-  
-  .column-right img {
+}
+
+.column-right img {
     width: 50px;
     height: 40px;
     margin: auto;
-  }
-  
-  .column-right{ 
+}
+
+.column-right{ 
     float: right; 
     width: 20%;
     text-align: right;
-  }
-  
-  .middleP2 {
+}
+
+.middleP2 {
     font-size: 10px;
-  }
+}
 
 
 /* Media queries */
@@ -366,7 +518,7 @@ h1 {
 /* Footer Specific */
 @media (max-width: 800px) {
     .middleP2 {
-      font-size: 7px;
+    font-size: 7px;
     }
 }
 
