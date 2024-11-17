@@ -207,6 +207,7 @@ div.item:nth-of-type(2) { --offset: 2; }
 div.item:nth-of-type(3) { --offset: 3; }
 div.item:nth-of-type(4) { --offset: 4; }
 div.item:nth-of-type(5) { --offset: 5; }
+div.item:nth-of-type(6) { --offset: 6; }
 
 /* Radio button styling */
 input[type="radio"] {
