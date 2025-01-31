@@ -429,7 +429,7 @@ h1 {
 .event-date {
     display: flex; /* Aligns icon and text in a row */
     align-items: center; /* Centers them vertically */
-    gap: 8px; /* Adds spacing between icon and text */
+    gap: 2px; /* Adds spacing between icon and text */
 }
 
 .event-date .calendar-icon {
