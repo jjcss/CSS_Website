@@ -25,7 +25,7 @@ body {
     /* background-color: #CE4A4A; */
     background-color: white;
     color: black;
-}
+    }
 
 .brand-title {
     font-size: 1.5rem;
@@ -109,7 +109,7 @@ body {
 header {
     position: sticky;
     top: 0;
-    z-index: 1;
+    z-index: 1000 !important;
 }
 
 .rounded {
@@ -118,6 +118,79 @@ header {
     box-shadow: 0 2px 2px #333;
 }
 /* end of header  */
+/* begining dropdown box */
+/* Ensure events-section content is stacked */
+.events-section {
+    text-align: center;
+    position: relative;
+}
+
+/* Ensure the dropdown container starts on a new line */
+.dropdown-container {
+    position: relative; /* Position it relative to its parent */
+    display: block; /* Ensure it takes up its own line */
+    margin: 20px auto; /* Center the dropdown and add spacing below the image */
+    text-align: center; /* Center-align the dropdown button */
+    width: fit-content; /* Keep it compact */
+    z-index: 1; /* Ensure it appears above other elements */
+}
+
+/* Dropdown Button Styling */
+.dropdown-button {
+    background-color: #f5f5f5;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 15px;
+    cursor: pointer;
+    display: inline-flex; /* Ensure it stays compact */
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    text-align: center;
+}
+
+.dropdown-button:hover {
+    background-color: #e0e0e0;
+}
+
+/* Dropdown Content */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    z-index: 10; /* Ensure it appears above other elements */
+    overflow: hidden;
+    top: 100%; /* Position it below the dropdown button */
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 10px 15px;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+}
+
+.dropdown-content a:hover {
+    background-color: #e0e0e0;
+}
+
+/* Show Dropdown Content on Hover */
+.dropdown-container:hover .dropdown-content {
+    display: block;
+}
+
+/* Adjust Margin Between Title and Dropdown */
+.calendar-icon {
+    margin-bottom: 20px; /* Add spacing between the image and dropdown */
+}
+/* end of dropdown box */
 /* Carousel Section  */
 main#carousel {
     width: 100vw;
@@ -177,12 +250,12 @@ main#carousel {
 }
 div.item {
     text-align: center;
-    padding: 5px;
+    padding: 3px;
     border: 3px solid black;
     border-radius: 20px;
     background-color: #fff;
     position: absolute;
-    width: 455px;
+    width: 405px;
     height: 600px;
     background-color: white;
     --r: calc(var(--position) - var(--offset));
@@ -198,17 +271,18 @@ div.item img {
     width: 100%;
     height: 100%;
     border-radius: 10px;
-    object-fit: cover;
+    object-fit: contain; /* Change from cover to contain */
+    padding:1px; /* Add padding to prevent edge clipping */
 }
 
 /* Styling for carousel items */
 div.item:nth-of-type(1) { --offset: 1; }
-div.item:nth-of-type(2) { --offset: 2; }
+/* div.item:nth-of-type(2) { --offset: 2; }
 div.item:nth-of-type(3) { --offset: 3; }
 div.item:nth-of-type(4) { --offset: 4; }
 div.item:nth-of-type(5) { --offset: 5; }
 div.item:nth-of-type(6) { --offset: 6; }
-div.item:nth-of-type(7) { --offset: 7; }
+div.item:nth-of-type(7) { --offset: 7; } */
 /* Radio button styling */
 input[type="radio"] {
     display: inline-block;
