@@ -12,7 +12,7 @@ const radios = document.querySelectorAll('input[type="radio"]');
     
     const totalItems = radios.length; // Total number of carousel items (e.g., 5)
    
-    let position = totalItems; // Start with the middle item
+    let position = 1; // Start with the middle item
     // Function to update the carousel's position and sync the radio buttons
     function updateCarouselPosition() {
         // Update the carousel's CSS variable for the current position
@@ -51,6 +51,22 @@ const radios = document.querySelectorAll('input[type="radio"]');
             updateCarouselPosition(); // Update the carousel and radio buttons
         });
     });
+document.addEventListener("DOMContentLoaded", function() {
+    const dropdownButton = document.querySelector(".dropdown-button");
+    const dropdownContent = document.querySelector(".dropdown-content");
+
+    dropdownButton.addEventListener("click", function(event) {
+        event.stopPropagation();
+        dropdownContent.style.display = dropdownContent.style.display === "block" ? "none" : "block";
+    });
+
+    // Close dropdown when clicking outside
+    document.addEventListener("click", function(event) {
+        if (!dropdownButton.contains(event.target) && !dropdownContent.contains(event.target)) {
+            dropdownContent.style.display = "none";
+        }
+    });
+});
 
     // Initial update of the carousel position
     updateCarouselPosition();
