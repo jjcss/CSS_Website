@@ -12,7 +12,7 @@ const radios = document.querySelectorAll('input[type="radio"]');
     
     const totalItems = radios.length; // Total number of carousel items (e.g., 5)
    
-    let position = 1; // Start with the middle item
+    let position = 2; // Start with the middle item
     // Function to update the carousel's position and sync the radio buttons
     function updateCarouselPosition() {
         // Update the carousel's CSS variable for the current position
